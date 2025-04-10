@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="control">
+        <input type="file" accept="image/*" id="file_selector"><br>
+        <button id="new">
+            <img src="./new.svg" style="height: 90%;" alt="">
+        </button><br>
+        <div class="flex">
+            <button id="back">←</button>
+            <button id="go">→</button>
+        </div>
+        <div class="flex">
+            <button class="brush selected" id="shaping">
+                <img src="./pen.svg" style="height: 100%;" alt="">
+            </button>
+            <button class="brush" id="showing">
+                <img src="./toggle.svg" style="height: 100%;" alt="">
+            </button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
